@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #20010f;
+}
+
+.nav {
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(71, 7, 36);
+}
+
+.logo img {
+    width: 50%;
+    margin: 3% 25% 3% 25%;
+}
+
+.nav-right span {
+    padding: 1%;
+}
+
+.nav-right span a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 内容 -1*/
+.all-1 {
+    padding-bottom: 12%;
+    width: 100%;
+    background: url(../img/40.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.all-1 img {
+    margin-top: 15%;
+    width: 60%;
+}
+
+.all-1 p {
+    font-size: 0.8rem;
+    color: white;
+}
+
+/* 内容2 */
+.all-2 {
+    width: 100%;
+}
+
+.all-2-1 {
+    width: 90%;
+    margin: auto;
+    background: url('../img/42.png') rgba(148, 17, 76, 0.69) no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.all-2-1 h1 {
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, red, white);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 5%;
+}
+
+.all-2-1 p {
+    color: white;
+    margin-top: 2%;
+    font-size: 0.8rem;
+}
+
+/* 内容3 */
+.all-3 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.all-3-img {
+    width: 50%;
+}
+
+.all-3-img img {
+    width: 100%;
+}
+
+.all-3-2 {
+    width: 40%;
+}
+
+.all-3-2 h1 {
+    padding: 5% 0% 0 10%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.all-3-2 p {
+    padding: 5% 0% 0 10%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.all-3-2 img {
+    width: 20%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+/* 弹窗广告 */
+.ad {
+    display: block;
+    min-width: 300px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    height: 100vh;
+}
+
+.ad img {
+    width: 100%;
+}
+
+.ad-1 {
+    position: relative;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+}
+
+.ad-2 {
+    position: absolute;
+    left: 2%;
+}
+
+/* 页脚 */
+.link {
+    display: none;
+}
+
+.code {
+    display: none;
+}
+
+.ad {
+    display: none;
+}
+
+.foot-1 {
+    padding: 10% 0 10% 0;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-1 img {
+    width: 40%;
+}
+
+.sponsor ul {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.sponsor li {
+    list-style-type: none;
+    width: 20%;
+}
+
+.sponsor li img {
+    width: 100%;
+}
+
+.foot {
+    background: linear-gradient(to bottom, #8f0e44, black)
+}
+
+.copyright {
+    background-color: #fff;
+}

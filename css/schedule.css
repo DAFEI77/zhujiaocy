@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 导航栏 */
+.nav {
+    /* background-color: rgb(71, 7, 36); */
+    background: linear-gradient(to right, #20010f, rgb(85, 9, 43));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    min-width: 760px;
+}
+
+.nav-centre {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0px;
+    margin-top: 17px;
+}
+
+.nav-right span {
+    font-size: 16px;
+}
+
+.nav-right a {
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+    margin-right: 20px;
+    padding-bottom: 25px;
+}
+
+.nav-right a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+}
+
+/* 设置logo大小 */
+.logo img {
+    width: 180px;
+    /* vertical-align: middle; */
+}
+
+.img {
+    width: 100%;
+    margin: auto;
+}
+
+.img img {
+    padding-top: 75px;
+    width: 100%;
+}
+
+/* 页脚 */
+.foot {
+    background: linear-gradient(to bottom, rgb(146, 16, 74), rgb(0, 0, 0));
+    background-size: 100%;
+}
+
+.foot-1 {
+    text-align: center;
+    background: url('../img/21.png') no-repeat;
+    background-size: 100%;
+}
+
+.foot-1 img {
+    padding: 6%;
+    width: 30%;
+    margin: auto;
+}
+
+
+.link {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.link ul {
+    width: 25%;
+}
+
+.link ul li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.link ul li a:hover {
+    color: rgb(189, 111, 152);
+}
+
+/* 赞助商 */
+.sponsor ul {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.sponsor {
+    margin-top: 60px;
+    padding-bottom: 90px;
+}
+
+.sponsor ul li {
+    list-style-type: none;
+}
+
+.sponsor ul li img {
+    width: 100%;
+}
+
+/* 版权声明 */
+.copyright {
+    background: linear-gradient(to right, rgb(95, 4, 60), rgb(81, 1, 120));
+    text-align: center;
+}
+
+.copyright div {
+    color: aliceblue;
+}
+
+/* 鼠标悬停二维码 */
+.code {
+    display: none;
+}
+
+.code img {
+    position: fixed;
+    top: 80px;
+    left: 10%;
+    width: 150px;
+}

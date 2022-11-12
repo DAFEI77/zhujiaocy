@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    background-color: rgb(71, 7, 36);
+}
+
+.nav {
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(71, 7, 36);
+}
+
+.logo img {
+    width: 50%;
+    margin: 3% 25% 3% 25%;
+}
+
+.nav-right span {
+    padding: 1%;
+}
+
+.nav-right span a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 视频 */
+.video video {
+    width: 100%;
+}
+
+/* 关于世界杯 */
+.about-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.about-1 img {
+    width: 60%;
+}
+
+.about-1-1 img {
+    width: 100%;
+}
+
+/* 内容1 */
+.about-2 {
+    margin-top: -5px;
+    background-color: #8f0e44;
+    display: flex;
+    width: 100%;
+}
+
+.about-3-1,
+.about-2-1 {
+    width: 40%;
+}
+
+.about-3-1 img,
+.about-2-1 img {
+    width: 100%;
+}
+
+.about-2-2 {
+    width: 60%;
+    margin: 3% 3% 3% 0;
+}
+
+.about-3-2 span,
+.about-2-2 span {
+    color: aliceblue;
+}
+
+.about-3 {
+    margin-top: -5px;
+    /* background-color: #8f0e44; */
+    display: flex;
+    width: 100%;
+}
+
+.about-3-2 {
+    width: 60%;
+    margin: 3% 0% 3% 3%;
+}
+
+/* 历届冠军 */
+.champions-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.champions-1 img {
+    width: 60%;
+}
+
+.champions-2 {
+    width: 100%;
+}
+
+.champions-2-1 {
+    border-radius: 3%;
+    margin: auto;
+    width: 96%;
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.champions-2 img {
+    border-radius: 3% 3% 0 0;
+    width: 100%;
+}
+
+.champions-2-1 p {
+    text-align: center;
+}
+
+/* 视频 */
+.video-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.video-1 img {
+    width: 100%;
+}
+
+.video-1 video {
+    width: 90%;
+    margin: auto;
+}
+
+/* 页脚 */
+.link {
+    display: none;
+}
+
+.code {
+    display: none;
+}
+
+.ad {
+    display: none;
+}
+
+.foot-1 {
+    padding: 10% 0 10% 0;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-1 img {
+    width: 40%;
+}
+
+.sponsor ul {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.sponsor li {
+    list-style-type: none;
+    width: 20%;
+}
+
+.sponsor li img {
+    width: 100%;
+}
+
+.foot {
+    background: linear-gradient(to bottom, #8f0e44, black)
+}
+
+.copyright {
+    background-color: #fff;
+}

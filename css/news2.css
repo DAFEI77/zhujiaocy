@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    /* background-color: rgb(71, 7, 36); */
+    background-color: #fff;
+    background: url('../img/71.png');
+    background-size: 100%;
+}
+
+.nav {
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(71, 7, 36);
+}
+
+.logo img {
+    width: 50%;
+    margin: 3% 25% 3% 25%;
+}
+
+.nav-right span {
+    padding: 1%;
+}
+
+.nav-right span a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 3D轮播图 (部分移动端不支持)*/
+section {
+    width: 100%;
+    height: 200px;
+    background: url('../img/60.png') no-repeat;
+    background-size: 100%;
+}
+
+/* 主体内容 */
+.content {
+    box-shadow: 0px 0px 15px grey;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.content-1 {
+    width: 90%;
+    padding: 5%;
+}
+
+.content-2 {
+    width: 95%;
+    margin: auto;
+}
+
+.content-1 img {
+    width: 100%;
+}
+
+.content-1 h3 {
+    color: #8b4977;
+    margin: 5% 0 5% 0;
+    border-bottom: 5px solid #aaaaaa;
+}
+
+.content-1-1 {
+    padding-bottom: 5%;
+    border-bottom: 1px solid black;
+    margin-top: 20%;
+}
+
+.content-1-1 video {
+    width: 100%;
+}
+
+.content-2 img {
+    padding-top: 5%;
+    width: 98%;
+}
+
+.content-2 h3,
+.content-2 h1 {
+    color: #8b4977;
+}
+
+.content-2 p {
+    margin: 5% 5% 0 5%;
+}
+
+.content-2 video {
+    width: 90%;
+    padding: 15% 5% 15% 5%;
+    /* border-bottom: 5px solid #aaaaaa; */
+}
+
+.content-2-1 {
+    background: white;
+    border-top: 5px solid rgb(85, 9, 43);
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.content-2-1 img {
+    padding: 10% 0 10% 0;
+    width: 90%;
+}
+
+.content-2-2 {
+    background: white;
+    border-top: 5px solid rgb(85, 9, 43);
+    width: 90%;
+    margin: 10% auto;
+}
+
+.content-2-2 h3,
+.content-2-2 p {
+    padding-left: 5%;
+}
+
+.content-2-3 {
+    border-top: 5px solid rgb(85, 9, 43);
+    width: 90%;
+    margin: 10% auto;
+}
+
+/* 页脚 */
+.link {
+    display: none;
+}
+
+.code {
+    display: none;
+}
+
+.ad {
+    display: none;
+}
+
+.foot-1 {
+    padding: 10% 0 10% 0;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-1 img {
+    width: 40%;
+}
+
+.sponsor ul {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.sponsor li {
+    list-style-type: none;
+    width: 20%;
+}
+
+.sponsor li img {
+    width: 100%;
+}
+
+.foot {
+    background: linear-gradient(to bottom, #8f0e44, black)
+}
+
+.copyright {
+    background-color: #fff;
+}

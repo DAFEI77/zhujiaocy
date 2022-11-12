@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    background-color: rgb(71, 7, 36);
+}
+
+.nav {
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(71, 7, 36);
+}
+
+.logo img {
+    width: 50%;
+    margin: 3% 25% 3% 25%;
+}
+
+.nav-right span {
+    padding: 1%;
+}
+
+.nav-right span a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 照片 */
+.content-1 img {
+    width: 100%;
+}
+
+.content-1 {
+    position: relative;
+}
+
+.content-1 h1 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 3rem;
+    color: white;
+    line-height: 4rem;
+}
+
+.img1 {
+    display: block;
+}
+
+.content-1 img:nth-child(n+3) {
+    display: none;
+}
+
+/* 文字 */
+.content-2 {
+    padding: 35px 0;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+/* 左侧选项 */
+.content-2-left {
+    width: 20%
+}
+
+.content-2-left div {
+    margin-top: 10%;
+}
+
+.content-2-left h3 {
+    text-decoration: none;
+    color: rgb(159 63 97);
+    cursor: pointer;
+}
+
+.content-2-left h3:hover {
+    color: rgb(235 143 176);
+}
+
+/* 右侧显示 */
+.content-2-right {
+    margin-left: 3%;
+    width: 80%;
+}
+
+.content-2-right div {
+    color: white;
+    font-size: 1rem;
+    line-height: 2
+}
+
+.content-2-right div:nth-child(1) {
+    display: block;
+}
+
+.content-2-right div:nth-child(n+2) {
+    display: none;
+}
+
+/* 页脚 */
+.link {
+    display: none;
+}
+
+.code {
+    display: none;
+}
+
+.ad {
+    display: none;
+}
+
+.foot-1 {
+    padding: 10% 0 10% 0;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-1 img {
+    width: 40%;
+}
+
+.sponsor ul {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.sponsor li {
+    list-style-type: none;
+    width: 20%;
+}
+
+.sponsor li img {
+    width: 100%;
+}
+
+.foot {
+    background: linear-gradient(to bottom, #8f0e44, black)
+}
+
+.copyright {
+    background-color: #fff;
+}

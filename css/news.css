@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    min-width: 760px;
+    max-width: 1920px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    background: url('../img/71.png');
+    background-size: 100%;
+    /* border-color: aliceblue; */
+}
+
+/* 媒体查询 */
+@media screen and (max-width:1000px) {
+    section {
+        height: 360px;
+        width: 600px;
+    }
+
+    section div:nth-child(1) {
+        transform: translateZ(300px);
+    }
+
+    section div:nth-child(2) {
+        transform: rotateY(180deg) translateZ(300px);
+    }
+
+    section div:nth-child(3) {
+        transform: rotateY(90deg) translateZ(299px);
+    }
+
+    section div:nth-child(4) {
+        transform: rotateY(-90deg) translateZ(299px);
+    }
+}
+
+@media screen and (min-width:1000px) {
+    section {
+        height: 500px;
+        width: 800px;
+    }
+
+    section div:nth-child(1) {
+        transform: translateZ(399px);
+    }
+
+    section div:nth-child(2) {
+        transform: translateZ(-399px) rotateY(180deg);
+    }
+
+    section div:nth-child(3) {
+        transform: rotateY(90deg) translateZ(399px);
+    }
+
+    section div:nth-child(4) {
+        transform: rotateY(-90deg) translateZ(399px);
+    }
+}
+
+@media screen and (min-width:1291px) {
+    section {
+        height: 420px;
+        width: 700px;
+    }
+
+    section div:nth-child(1) {
+        background: url('../img/63.png') no-repeat;
+        transform: translateZ(-350px) rotateY(180deg);
+    }
+
+    section div:nth-child(2) {
+        transform: rotateY(0deg) translateZ(350px);
+    }
+
+    section div:nth-child(3) {
+        transform: rotateY(90deg) translateZ(350px);
+    }
+
+    section div:nth-child(4) {
+        transform: rotateY(-90deg) translateZ(350px);
+    }
+}
+
+/* 导航栏 */
+.nav {
+    /* background-color: rgb(71, 7, 36); */
+    background: linear-gradient(to right, #20010f, rgb(85, 9, 43));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    min-width: 800px;
+}
+
+.nav-centre {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0px;
+    margin-top: 17px;
+}
+
+.nav-right span {
+    font-size: 16px;
+}
+
+.nav-right a {
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+    margin-right: 20px;
+    padding-bottom: 25px;
+}
+
+.nav-right a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+}
+
+/* 设置logo大小 */
+.logo img {
+    width: 180px;
+    /* vertical-align: middle; */
+}
+
+/* 3D轮播图 */
+/* .box-bg {
+    background: url(../img/63.png) no-repeat;
+    background-size: 100%;
+} */
+
+.box {
+    background: url('../img/65.png') no-repeat;
+    background-size: 100%;
+    padding: 150px 0 110px 0;
+    perspective: 1500px;
+    /* background: #6e0428; */
+    border-bottom: 10px solid #8b4977;
+}
+
+section div:nth-child(1) {
+    background: url(../img/63.png) no-repeat;
+    background-size: 100%;
+}
+
+section div:nth-child(2) {
+    background: url(../img/62.png) no-repeat;
+    background-size: 100%;
+}
+
+section div:nth-child(3) {
+    background: url(../img/61.png) no-repeat;
+    background-size: 100%;
+}
+
+section div:nth-child(4) {
+    background: url(../img/60.png) no-repeat;
+    background-size: 100%;
+}
+
+section {
+    position: relative;
+    margin: auto;
+
+    transform-style: preserve-3d;
+    /* transform: rotateY(30deg); */
+    animation: rotate 20s linear infinite;
+}
+
+section div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0);
+    }
+
+    5% {
+        transform: rotateY(90deg);
+    }
+
+    25% {
+        transform: rotateY(90deg);
+    }
+
+    30% {
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    55% {
+        transform: rotateY(270deg);
+    }
+
+    75% {
+        transform: rotateY(270deg);
+    }
+
+    80% {
+        transform: rotateY(360deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/* 主体内容 */
+.content {
+    box-shadow: 0px 0px 50px grey;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.content-1 {
+    width: 50%;
+    padding: 5%;
+}
+
+.content-2 {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.content-1 img {
+    width: 100%;
+}
+
+.content-1 h3 {
+    color: #8b4977;
+    margin: 5% 0 5% 0;
+    border-bottom: 5px solid #aaaaaa;
+}
+
+.content-1-1 {
+    padding-bottom: 5%;
+    border-bottom: 1px solid black;
+    margin-top: 20%;
+}
+
+.content-1-1 video {
+    width: 100%;
+}
+
+.content-2 img {
+    padding-top: 5%;
+    width: 98%;
+}
+
+.content-2 h3,
+.content-2 h1 {
+    color: #8b4977;
+}
+
+.content-2 p {
+    margin: 5% 10% 0 0;
+}
+
+.content-2 video {
+    width: 90%;
+    padding: 15% 5% 15% 5%;
+    /* border-bottom: 5px solid #aaaaaa; */
+}
+
+.content-2-1 {
+    background: white;
+    border-top: 5px solid rgb(85, 9, 43);
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.content-2-1 img {
+    padding: 10% 0 10% 0;
+    width: 90%;
+}
+
+.content-2-2 {
+    background: white;
+    border-top: 5px solid rgb(85, 9, 43);
+    width: 90%;
+    margin: 10% auto;
+}
+
+.content-2-2 h3,
+.content-2-2 p {
+    padding-left: 5%;
+}
+
+.content-2-3 {
+    border-top: 5px solid rgb(85, 9, 43);
+    width: 90%;
+    margin: 10% auto;
+}
+
+
+/* 页脚 */
+.foot {
+    background: linear-gradient(to bottom, rgb(146, 16, 74), rgb(0, 0, 0));
+    background-size: 100%;
+}
+
+.foot-1 {
+    text-align: center;
+    background: url('../img/21.png') no-repeat;
+    background-size: 100%;
+}
+
+.foot-1 img {
+    padding: 6%;
+    width: 30%;
+    margin: auto;
+}
+
+
+.link {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.link ul {
+    width: 25%;
+}
+
+.link ul li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.link ul li a:hover {
+    color: rgb(189, 111, 152);
+}
+
+/* 赞助商 */
+.sponsor ul {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.sponsor {
+    margin-top: 60px;
+    padding-bottom: 90px;
+}
+
+.sponsor ul li {
+    list-style-type: none;
+}
+
+.sponsor ul li img {
+    width: 100%;
+}
+
+/* 版权声明 */
+.copyright {
+    background: linear-gradient(to right, rgb(95, 4, 60), rgb(81, 1, 120));
+    text-align: center;
+}
+
+.copyright div {
+    color: aliceblue;
+}
+
+/* 鼠标悬停二维码 */
+.code {
+    display: none;
+}
+
+.code img {
+    position: fixed;
+    top: 80px;
+    left: 10%;
+    width: 150px;
+}
